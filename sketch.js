@@ -97,7 +97,7 @@ if (deforms(10)){
   app.play();
 }
   
-if (deform(10)=== true){
+if (deformer(10)=== true){
   walls.shapeColor = rgb(500,200,100);
 }
 
@@ -106,7 +106,7 @@ if (deform(10)=== true){
   
   drawSprites();
 }
-function deform(mavalue){
+function deformer(mavalue){
   if (deformation > mavalue){
  return true
   }
