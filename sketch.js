@@ -92,12 +92,12 @@ bullet.x = bullet.x + speed
     console.log(deformation);
 bullet.x = shooter.x + 70;
    
-if (deform<(10)){
+if (deforms(10)){
   walls.shapeColor = rgb(100,300,100);
   app.play();
 }
   
-if (deform>(10)=== true){
+if (deform(10)=== true){
   walls.shapeColor = rgb(500,200,100);
 }
 
@@ -106,13 +106,13 @@ if (deform>(10)=== true){
   
   drawSprites();
 }
-function deform>(mavalue){
+function deform(mavalue){
   if (deformation > mavalue){
  return true
   }
   return false;
 }
-function deform<(mavalue){
+function deforms(mavalue){
   if (deformation < mavalue){
  return true
   }
